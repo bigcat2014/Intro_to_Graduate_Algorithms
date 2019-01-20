@@ -97,8 +97,10 @@ def main():
     if FLAGS.increasing_subsequence:
         print('Running Longest Increasing Subsequence test...')
 
-        wrapped_lis = wrapper(LIS, [5, 7, 4, -3, 9, 1, 10, 4, 5, 8, 9, 3])
-        print('LIS([5, 7, 4, -3, 9, 1, 10, 4, 5, 8, 9, 3]) time: {time}\n'.format(
+        a = [5, 7, 4, -3, 9, 1, 10, 4, 5, 8, 9, 3]
+        wrapped_lis = wrapper(LIS, a)
+        print('LIS1({array}) time: {time}\n'.format(
+            array=a,
             time=timeit(wrapped_lis, number=1)
         ))
 
