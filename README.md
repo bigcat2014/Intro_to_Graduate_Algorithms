@@ -1,1 +1,1 @@
-# Udacity Intro_to_Graduate_Algorithms
+# Udacity [Intro to Graduate Algorithms](https://www.udacity.com/course/introduction-to-graduate-algorithms--ud401)
